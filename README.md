@@ -1,5 +1,5 @@
 # aws-iperf-tf
-To generate IPERF2 and IPERF3 servers in AWS for BW testing that limit which public IPs can test against them
+To generate IPERF2 and IPERF3 servers in AWS for bandwidth testing and limit which public IPs can test against them.  The default region is us-east-1
 
 ## Set Variables
 - Set variables in terraform.tfvars, (must set allowed_SSH_IP and allowed_IPERF_IP)
