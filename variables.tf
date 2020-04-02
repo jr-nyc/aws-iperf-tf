@@ -6,8 +6,9 @@ variable "region" {
 }
 
 # #if you want to specify an ami in ec2.tf change to:  ami = var.ami
-  default = "ami-0fc61db8544a617ed"
-}
+#variable "ami"{
+#  default = "ami-0fc61db8544a617ed"
+#}
 
 variable "Owner_Name" {
   default = "foo"
